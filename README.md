@@ -65,8 +65,9 @@ src/
 
 ## 🔗 Links
 
-- GitHub: <a href="https://github.com/slayer-br/one-piece" target="_blank" rel="noopener noreferrer">Lista de Pokémons</a>
-- Site ao vivo: <a href="https://slayer-br.github.io/one-piece/" target="_blank" rel="noopener noreferrer">Lista de Pokémons</a>
+- GitHub: <a href="https://github.com/slayer-br/one-piece" target="_blank" rel="noopener noreferrer">
+One Piece</a>
+- Site ao vivo: <a href="https://slayer-br.github.io/one-piece/" target="_blank" rel="noopener noreferrer">One Piece</a>
 
 ## 🙌 Créditos
 
