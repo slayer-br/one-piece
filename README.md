@@ -1,10 +1,14 @@
-# One Piece - Semana do Zero ao Programador Contratado
+# 👒 One Piece - Semana do Zero ao Programador Contratado
 
 Projeto desenvolvido para a Semana do Zero ao Programador Contratado, inspirado no anime One Piece. O objetivo é apresentar os personagens principais da tripulação dos Chapéu de Palha de forma interativa e responsiva.
 
-## Demonstração
+## 🎥 Demonstração
 
 Interface web que permite ao usuário visualizar informações dos personagens do anime One Piece, alternando entre eles por meio de botões com imagens.
+
+| 📱 Versão Mobile | 💻 Versão Desktop |
+|------------------|-------------------|
+| ![Mobile](./src/images/one-piece-mobile.gif) | ![Desktop](./src/images/one-piece-desktop.gif) |
 
 ## 📂 Estrutura do Projeto
 
@@ -45,7 +49,7 @@ src/
 - Imagens otimizadas e estilização moderna
 - Efeitos visuais ao selecionar personagem
 
-## Detalhes Técnicos
+## 💡 Detalhes Técnicos
 
 - O CSS foi desenvolvido com abordagem mobile-first, utilizando media queries para ampliar o layout em telas maiores.
 - O JavaScript manipula as classes `selected` para alternar o personagem exibido e o botão ativo.
@@ -69,7 +73,7 @@ src/
 - Imagens e nomes dos personagens: One Piece (Toei Animation, Eiichiro Oda)
 - Projeto educacional para DevQuest Starter
 
-## Observações
+## 🧐 Observações
 
 - Não há dependências externas além das fontes do Google Fonts.
 - O projeto é totalmente estático, não requer backend.
