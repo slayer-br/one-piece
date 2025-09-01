@@ -7,15 +7,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./src/css/style.css" />
-    <script defer src="./src/js/script.js" defer ></script>
+    <script src="./src/js/script.js" defer></script>
     <title>One Piece - Semana do Zero ao Programador Contratado</title>
   </head>
   <body>
     <main class="characters">
-      <div class="character">
+      <section class="character" data-character="chopper">
         <img class="character-image" src="./src/images/personagem-tony-chopper.png" alt="Tony Tony Chopper" />
         <div class="character-info">
-          <i class="logo"></i>
+          <span class="logo" aria-hidden="true"></span>
           <h2 class="character-name">Tony Tony Chopper</h2>
           <p class="character-description">
             Esta pequena rena ganhou a habilidade de mudar sua forma e de pensar como humanos após comer a fruta Hito
@@ -23,24 +23,24 @@
             tripulação.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div class="character">
+      <section class="character" data-character="zoro">
         <img class="character-image" src="./src/images/personagem-roronoa-zoro.png" alt="Roronoa Zoro" />
         <div class="character-info">
-          <i class="logo"></i>
+          <span class="logo" aria-hidden="true"></span>
           <h2 class="character-name">Roronoa Zoro</h2>
           <p class="character-description">
             Primeiro pirata (segundo membro se contarmos com Luffy) a se juntar à tripulação de Piratas do Chapéu de
             Palha, Zoro aceitou o convite de Luffy após o capitão salvar sua vida.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div class="character selected">
+      <section class="character selected" data-character="luffy">
         <img class="character-image" src="./src/images/personagem-monkey-d-luffy.png" alt="Monkey D. Luffy" />
         <div class="character-info">
-          <i class="logo"></i>
+          <span class="logo" aria-hidden="true"></span>
           <h2 class="character-name">Monkey D. Luffy</h2>
           <p class="character-description">
             "Luffy do Chapéu de Palha", como ficou conhecido, é o protagonista do anime, e o fundador e capitão da
@@ -48,12 +48,12 @@
             lendário tesouro de Gol D. Roger, para se tornar o novo Rei dos Piratas.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div class="character">
+      <section class="character" data-character="nami">
         <img class="character-image" src="./src/images/personagem-nami.png" alt="Nami" />
         <div class="character-info">
-          <i class="logo"></i>
+          <span class="logo" aria-hidden="true"></span>
           <h2 class="character-name">Nami</h2>
           <p class="character-description">
             Órfã de guerra, ainda criança Nami foi adotada por Bell-mère, uma mulher da Marinha. Enquanto crescia ao
@@ -61,12 +61,12 @@
             o mapa de todo o mundo.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div class="character">
+      <section class="character" data-character="sanji">
         <img class="character-image" src="./src/images/personagem-sanji.png" alt="Sanji" />
         <div class="character-info">
-          <i class="logo"></i>
+          <span class="logo" aria-hidden="true"></span>
           <h2 class="character-name">Sanji</h2>
           <p class="character-description">
             Também conhecido como "Perna Negra" Sanji, este pirata foi o quinto a integrar a tripulação de Luffy. Suas
@@ -74,38 +74,40 @@
             atuar como cozinheiro oficial do grupo.
           </p>
         </div>
-      </div>
+      </section>
     </main>
-    <ul class="character-buttons">
-      <li>
-        <button class="character-button">
-          <img src="./src/images/tripulacao-chopper.png" alt="Tripulação Tony Tony Chopper" />
-        </button>
-      </li>
+    <nav>
+      <ul class="character-buttons">
+        <li>
+          <button class="character-button" data-character="chopper">
+            <img src="./src/images/tripulacao-chopper.png" alt="Tripulação Tony Tony Chopper" />
+          </button>
+        </li>
 
-      <li>
-        <button class="character-button">
-          <img src="./src/images/tripulacao-zoro.png" alt="Tripulação Roronoa Zoro" />
-        </button>
-      </li>
+        <li>
+          <button class="character-button" data-character="zoro">
+            <img src="./src/images/tripulacao-zoro.png" alt="Tripulação Roronoa Zoro" />
+          </button>
+        </li>
 
-      <li>
-        <button class="character-button selected">
-          <img src="./src/images/tripulacao-luffy.png" alt="Tripulação Monkey D. Luffy" />
-        </button>
-      </li>
+        <li>
+          <button class="character-button selected" data-character="luffy">
+            <img src="./src/images/tripulacao-luffy.png" alt="Tripulação Monkey D. Luffy" />
+          </button>
+        </li>
 
-      <li>
-        <button class="character-button">
-          <img src="./src/images/tripulacao-nami.png" alt="Tripulação Nami" />
-        </button>
-      </li>
+        <li>
+          <button class="character-button" data-character="nami">
+            <img src="./src/images/tripulacao-nami.png" alt="Tripulação Nami" />
+          </button>
+        </li>
 
-      <li>
-        <button class="character-button">
-          <img src="./src/images/tripulacao-sanji.png" alt="Tripulação Sanji" />
-        </button>
-      </li>
-    </ul>
+        <li>
+          <button class="character-button" data-character="sanji">
+            <img src="./src/images/tripulacao-sanji.png" alt="Tripulação Sanji" />
+          </button>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
